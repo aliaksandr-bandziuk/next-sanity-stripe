@@ -33,9 +33,10 @@ const CheckoutNow = ({
       onClick={() => {
         byuNow(product.price_id);
       }}
+      variant="outline"
       className="flex-1"
     >
-      Add to Bag
+      Checkout Now
     </Button>
   )
 }

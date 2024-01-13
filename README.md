@@ -4,6 +4,7 @@
 
 - Next.js 14
 - Sanity headless CMS
-- Tailwind CSS
+- Shadcn/ui
 - Stripe
+- Tailwind CSS
 - Vercel
