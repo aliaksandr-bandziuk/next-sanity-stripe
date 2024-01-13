@@ -23,6 +23,9 @@ async function getData() {
 
 }
 
+// Opt out of caching for all data requests in the route segment
+export const dynamic = 'force-dynamic'
+
 const ProductsPage = async () => {
 
   const data: simplifiedProduct[] = await getData();
